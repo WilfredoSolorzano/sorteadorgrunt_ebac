@@ -128,7 +128,7 @@
   },
   "scripts": {
     "grunt": "grunt",
-    "build": "grunt buil",
+    "build": "grunt build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
