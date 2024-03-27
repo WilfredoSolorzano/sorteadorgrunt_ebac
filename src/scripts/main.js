@@ -6,7 +6,10 @@ document.addEventListener('DOMContentLoaded',function(){
 
         let numeroAleatorio=Math.random()*numeroMaximo;
         numeroAleatorio=Math.floor(numeroAleatorio+1);
-        alert(numeroAleatorio);
+    
+
+        document.getElementById('resultado-valor').innerText=numeroAleatorio;
+        document.querySelector(".resultado").style.display="block"
     })
 })
 
